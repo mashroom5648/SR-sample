@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SpeechRecognitionAPI Test</title>
+</head>
+
+<body>
+    <button id="start-btn" data-status="stop">音声認識スタート</button>
+    <div class="output-text">
+        <p>You => <span id="you-text"></span></p>
+        <p>Answer => <span id="answer-text"></span></p>
+    </div>
+
+    <p class="warning">
+        検出されるワード<br/>
+        ・今日の天気は？<br/>
+        ・元気ですか<br/>
+        ・ねえ、Alexa<br/>
+    </p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

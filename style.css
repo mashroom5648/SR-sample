@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+.output-text {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.warning {
+    padding-top: 20px;
+}
